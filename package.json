@@ -1,0 +1,36 @@
+{
+  "name": "url-compute",
+  "version": "0.9.0",
+  "description": "compute non-absolute urls",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "systemjs": "~0.19.47",
+    "tslib": "1.9.0"
+  },
+  "devDependencies": {
+    "intern": "^4.0.0-rc.1"
+  },
+  "scripts": {
+    "compile": "tsc -p .",
+    "test": "intern"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tenuki/url-compute.git"
+  },
+  "keywords": [
+    "url",
+    "computation",
+    "relative",
+    "resolution"
+  ],
+  "author": "david weil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tenuki/url-compute/issues"
+  },
+  "homepage": "https://github.com/tenuki/url-compute#readme"
+}

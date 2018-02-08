@@ -1,0 +1,4 @@
+{
+    "suites": "dist/tests/unit/UrlComp.js",
+    "environments": ["node"]
+}
