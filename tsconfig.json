@@ -19,7 +19,8 @@
     ]
   },
   "include": [
-    "src/**/*.ts",
+    "index.ts",
+    "lib/**/*.ts",
     "tests/**/*.ts"
   ],
   "exclude": [

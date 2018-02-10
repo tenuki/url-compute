@@ -1,8 +1,8 @@
 const { suite, test } = intern.getInterface('tdd');
 const { assert } = intern.getPlugin('chai');
 
-import { url_compute } from "../../src/index";
-import { is_absolute, upper_path_walk, UrlComp } from "../../src/UrlComp";
+import { url_compute } from "../../index";
+import { is_absolute, upper_path_walk, UrlComp } from "../../lib/UrlComp";
 
 suite('index', () => {
     test('url_compute', () => {
